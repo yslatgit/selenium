@@ -48,6 +48,7 @@ class ParametrizedTestCase(unittest.TestCase):
 
     @staticmethod
     def parametrize(testcase_klass, param=None):
+        """返回测试用例的集合"""
         # print("---parametrize-----")
         # print(param)
         testloader = unittest.TestLoader()

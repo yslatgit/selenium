@@ -35,7 +35,8 @@ if __name__ == '__main__':
     PATH = lambda p: os.path.abspath(
         os.path.join(os.path.dirname(__file__), p)
     )
-    abs1 = PATH("../Yamls/Home/Login.yaml")
+    # abs1 = PATH("../Yamls/Home/Login.yaml")
+    abs1 = PATH("../Yamls/config.yaml")
     print (abs1)
     t = getYam(abs1)
-    print(t[1]["testinfo"])
+    print(t)

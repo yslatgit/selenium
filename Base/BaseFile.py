@@ -1,4 +1,4 @@
-__author__ = 'shikun'
+__author__ = 'ysl'
 
 import os
 
@@ -9,6 +9,7 @@ import os
 
 
 def write_data(f, method='w+', data=""):
+    """自定义写data的方法"""
     if not os.path.isfile(f):
         print('文件不存在，写入数据失败')
     else:
@@ -17,6 +18,7 @@ def write_data(f, method='w+', data=""):
 
 
 def mkdir_file(f, method='w+'):
+    """自定义创建文件的方法"""
     if not os.path.isfile(f):
         with open(f, method, encoding="utf-8") as fs:
             print("创建文件%s成功" % f)
@@ -27,6 +29,7 @@ def mkdir_file(f, method='w+'):
 
 
 def remove_file(f):
+    """自定义删除文件的方法"""
     if os.path.isfile(f):
         os.remove(f)
     else:

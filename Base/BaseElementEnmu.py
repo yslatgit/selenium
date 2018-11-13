@@ -1,5 +1,5 @@
 class Element(object):
-
+    """把测试用到的便签变为属性，方便调用"""
     # selenium关键字
     find_element_by_id = "id"
     find_elements_by_id = "ids"

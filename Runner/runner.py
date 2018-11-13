@@ -15,7 +15,7 @@ from TestCase.CnblogsTest import CnblogsTest
 def runnerCaseApp():
     start_time = datetime.now()
     suite = unittest.TestSuite()
-    suite.addTest(ParametrizedTestCase.parametrize(HomeTest))
+    # suite.addTest(ParametrizedTestCase.parametrize(HomeTest))
     suite.addTest(ParametrizedTestCase.parametrize(MyTest))
     # suite.addTest(ParametrizedTestCase.parametrize(CnblogsTest))
     unittest.TextTestRunner(verbosity=2).run(suite)

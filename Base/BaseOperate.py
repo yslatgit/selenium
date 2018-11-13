@@ -64,6 +64,7 @@ class OperateElement:
             info = "%s_%s_%s_%s" % (
                 operate.get("element_info", " "), operate.get("find_type"), operate.get("operate_type", " "),
                 operate.get("msg", " "))
+            #在控制台打印自动化测试时的元素操作步骤
             print("==操作步骤：%s==" % info)
             logTest.buildStartLine(testInfo[0]["id"] + "_" + testInfo[0]["title"] + "_" + info)  # 记录日志
 
