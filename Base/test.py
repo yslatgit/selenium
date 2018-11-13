@@ -1,3 +1,4 @@
+"""自定义"""
 import pickle
 class Person:
     def __init__(self,n,a):
