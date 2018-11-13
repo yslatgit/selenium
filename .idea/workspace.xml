@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50466659-5a31-4934-a7a3-ed77646f3b05" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Runner/report.xlsx" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/devices20181113093131/outPut.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/devices20181113094631/outPut.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/devices20181113094813/outPut.log" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Report/Report.xlsx" afterPath="$PROJECT_DIR$/Report/Report.xlsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Base/BaseElementEnmu.py" afterPath="$PROJECT_DIR$/Base/BaseElementEnmu.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Base/BaseEmail.py" afterPath="$PROJECT_DIR$/Base/BaseEmail.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Base/BaseFile.py" afterPath="$PROJECT_DIR$/Base/BaseFile.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Base/BaseOperate.py" afterPath="$PROJECT_DIR$/Base/BaseOperate.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Base/BaseRunner.py" afterPath="$PROJECT_DIR$/Base/BaseRunner.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Base/BaseYaml.py" afterPath="$PROJECT_DIR$/Base/BaseYaml.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runner/runner.py" afterPath="$PROJECT_DIR$/Runner/runner.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/info.pickle" afterPath="$PROJECT_DIR$/log/info.pickle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/sum.pickle" afterPath="$PROJECT_DIR$/log/sum.pickle" />
-    </list>
+    <list default="true" id="50466659-5a31-4934-a7a3-ed77646f3b05" name="Default" comment="" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -646,7 +630,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542076132499</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="3">
+      <created>1542089803096</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1542089803096</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -722,7 +713,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
     <MESSAGE value="2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2" />
+    <MESSAGE value="3" />
+    <option name="LAST_COMMIT_MESSAGE" value="3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
