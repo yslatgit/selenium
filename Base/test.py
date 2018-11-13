@@ -15,3 +15,6 @@ with open(r"d:\p.txt","wb") as f:
 
 with open(r"d:\p.txt", "rb") as f:
     print(pickle.load(f))
+
+if __name__ == '__main__':
+    pass
